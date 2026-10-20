@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+yabai -m config layout bsp
+yabai -m config window_gap 8
+yabai -m config top_padding 8
+yabai -m config bottom_padding 8
+yabai -m config left_padding 8
+yabai -m config right_padding 8
+
+# apps that shouldn't tile
+yabai -m rule --add app="^System Settings$" manage=off
+yabai -m rule --add app="^Finder$" manage=off

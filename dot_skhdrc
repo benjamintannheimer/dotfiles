@@ -1,0 +1,16 @@
+# focus window
+alt - h : yabai -m window --focus west
+alt - j : yabai -m window --focus south
+alt - k : yabai -m window --focus north
+alt - l : yabai -m window --focus east
+
+# swap windows
+shift + alt - h : yabai -m window --swap west
+shift + alt - l : yabai -m window --swap east
+
+# toggle float / fullscreen
+alt - space : yabai -m window --toggle float
+alt - f : yabai -m window --toggle zoom-fullscreen
+
+# equalize layout
+alt - 0 : yabai -m space --balance
